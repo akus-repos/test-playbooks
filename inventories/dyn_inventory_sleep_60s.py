@@ -15,5 +15,5 @@ inventory = {
 
 
 if __name__ == '__main__':
-    time.sleep(60)
+    time.sleep(3600)
     print(json.dumps(inventory, indent=4))
